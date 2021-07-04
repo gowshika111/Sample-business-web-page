@@ -1,0 +1,274 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+.wrapper{
+    width: 100%;
+    height:auto;
+    min-height: 300px;
+    padding: 0 0px;
+}
+.slide{
+    width: 100%;
+    height: 650px;
+    position:relative;
+    background-image: url("https://4.bp.blogspot.com/-poCc8GUv-hk/Uuj49dkgSkI/AAAAAAAACYQ/VSEMDtZxsv0/w1200-h630-p-k-no-nu/Indoor+Anime+Landscape+%5BScenery+-+Background%5D+116.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header{
+    position: relative;
+    padding: 60px 66px;
+}
+.header .menu{
+    float:right;
+
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 10px;
+    color:rgb(226, 236, 236);
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Myriad Pro;
+}
+.slidetitle{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color:cornsilk;
+    font-family: Myriad Pro;
+}
+.slidetitle h1{
+    font-size: 75px;
+    
+    text-align: center;
+}
+.slidetitle h2{
+    text-align: center;
+}
+.slidetitle p{
+    font-size: 16px;
+    padding:0 80px;
+    text-align: center;
+    
+}
+.content{
+    padding: 0 40px;
+    background-color:rgb(249, 249, 250);
+    background-size: cover;
+}
+.contenttitle{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    padding: 35px 0;
+    
+}
+.contenttitle h1{
+    font-size: 28px;
+    font-family: Myriad Pro;
+    color: rgb(19, 19, 18);
+}
+.border span{
+    width: 9px;
+    height: 9px;
+    margin: 0 3px;
+    background-color: gray;
+    border-radius: 100px;
+    display: inline-block;
+}
+.contentdisc p{
+    font-size: 10px;
+    color:black;
+    padding: 0 5px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    display:inline-block;
+    
+    font-family: Myriad Pro;
+}
+.skillsection{
+    display:inline-block;
+    width:100%;
+    float: left;
+    padding: 45px 0;
+}
+.skill-imge{
+    width:50%;
+    float: left;
+    flex-basis: 40%;
+}
+.skill-imge img{
+    width:100%;
+
+}
+.skillcontent{
+    
+    width: 45%;
+    float: right;
+}
+.skilltitle h3{
+    font-size: 28px;
+    font-family: Myriad Pro;
+    color: #393838;
+    font-weight: 500;
+    float:left;
+    width:100%;
+
+}
+.skills {
+    width: 100%;
+    float:left;
+    padding-top: 15px;
+    color:#111111;
+    font-family: Myriad Pro;
+    text-align: left;
+    font-size: 20px;
+
+}
+.employees{
+    display:inline-block;
+    width:100%;
+   
+    padding: 45px 0;
+
+
+}
+.ourworkers{
+    width: 45%;
+    float: left;
+    text-align: left;
+    font-size: 20px;
+}
+.e-imge{
+    width:50%;
+    float: right;
+    flex-basis: 40%;
+    
+    
+}
+.e-imge img{
+    width:100%;
+}
+.services{
+    background-color: wheat;
+    background-size: cover;
+    
+}
+.servicetitle{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+    padding: 35px 0;
+}
+.servicetitle h1{
+    font-size: 35px;
+    font-family: Myriad Pro;
+    color: rgb(2, 2, 2);
+}
+.servicetitle  p{
+    font-size: 20px;
+    color:black;
+    padding: 0 5px;
+    width: 100%;
+    
+    text-align: center;
+    display:inline-block;
+    
+    font-family: Myriad Pro;
+}
+.catering{
+    text-align: center;
+}
+.row{
+    display: flex;
+
+}
+.column{
+    flex:33.33%;
+    padding: 5px;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  .teams{
+      background-color: blanchedalmond;
+      background-size: cover;
+  }
+ .teams h1{
+     text-align: center;
+     font-size: 35px;
+ } 
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+.card img{
+    border-radius: 50px;
+}  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .details{
+    
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+
+}
+  .social-links a{
+    padding-top: 27px;
+    margin: 1rem;
+    height: 20px;
+    width: 20px;
+  }
+  
+ 
+ 
